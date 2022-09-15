@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("-----------")
 	m := map[int]bool{}
-	vals := []int{2, 4, 5, 3, 6, 8, 7, 9, 10, 1}
+	vals := []int{2, 4, 5, 3, 6, 8, 7, 9, 10, 4, 4, 4, 1}
 	for _, v := range vals {
 		m[v] = true
 	}
